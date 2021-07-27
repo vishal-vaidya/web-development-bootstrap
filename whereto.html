@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Where to Watch? | K-Drama World</title>
+</head>
+
+<body class="d-flex flex-column h-100 min-vh-100">
+  <header>
+    <navigation-bar-div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">K-World</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/top5.html" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Top Shows
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/top5.html">Top 5</a></li>
+                  <li><a class="dropdown-item" href="/top10.html">Top 6-10</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="whreto" href="whereto.html">Where to Watch?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#rateusModal">
+              Rate the Site
+            </button>
+            <!-- Rate us Modal -->
+            <div class="modal fade" id="rateusModal" tabindex="-1" aria-labelledby="rateusModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="rateusModalLabel">Rate The Website</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="emailInput" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="RatingInput" class="form-label">Your Rating</label>
+                      <select id="RatingInput" class="form-select" aria-label="Default select example">
+                        <option selected>Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                      <label for="feedbackTextarea" class="form-label">Feedback</label>
+                      <textarea class="form-control" id="feedbackTextarea" rows="3"></textarea>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </navigation-bar-div>
+  </header>
+  <div class="heading text-center my-2">
+    <h3>Where to Watch? </h3>
+  </div>
+  <main class=" d-flex flex-column flex-grow-1 justify-content-center align-items-center">
+    <div class="container my-3">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">Netflix</h1>
+          <h6>Subsciption Type: Paid</h6>
+          <p class="lead">Laugh, cry, sigh, scream, shout or whatever you feel like with these funny, intense, romantic
+            and suspenseful Korean dramas.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            <a href="http://netflix.com"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Go to
+                Site</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="./images/thumb_netflix.png" alt="" width="600">
+        </div>
+      </div>
+    </div>
+    <div class="container my-3">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">Rakuten Viki</h1>
+          <h6>Subsciption Type: Free (Ads) | Paid</h6>
+          <p class="lead">Watch Korean Drama shows for FREE! with subtitles in over 100 different languages.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            <a href="http://viki.com"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Go to
+                Site</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="./images/thumb_viki.png" alt="" width="600">
+        </div>
+      </div>
+    </div>
+    <div class="container my-3">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">Go Play Streaming</h1>
+          <h6>Subscription Type: Free (Ad-Free)</h6>
+          <p class="lead">Watch Korean Drama shows for FREE! with No Ads in Full HD with English Subtitles.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            <a href="https://goplay.anontpp.com/?ref=Reddit"><button type="button"
+                class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Go to Site</button></a>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="./images/thumb_goplay.png" alt="" width="600">
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="flex-column footer mt-auto py-3 bg-light" style="text-align: center;">
+    <p>Blog made by <a href="https://twitter.com/vaidyavishal12">@vishalvaidya</a>.</p>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
